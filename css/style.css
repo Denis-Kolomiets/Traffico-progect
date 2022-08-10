@@ -1,0 +1,42 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./media.css";
+@import "./burger.css";
+
+:root{
+    --burger_width: 40px;
+    --burger_height: 30px;
+}
+
+
+[class*='__container'] {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.aplication_container {
+    max-width: 1230px;
+    margin-left: calc( ( 100% - 1230px ) / 4 );
+} 
+
+.wrapper{
+   max-width: 1600px;
+   margin: 0 auto;
+   background: #fdf1ed;
+}
+
+
+
+
+.main {
+    margin-top: 200px;
+    padding-bottom: 220px;
+}
+ 
+
+.none {
+    display: none;
+}
